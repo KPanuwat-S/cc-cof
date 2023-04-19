@@ -6,8 +6,6 @@ import ErrorService from "./../services/error.service.js";
 const Component = new ComponentService();
 const Error = new ErrorService();
 
-
-
 Error.hideError();
 
 const calTotal = () => {
